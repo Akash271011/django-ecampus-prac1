@@ -1,5 +1,14 @@
 <h1>
-    ABOUT US
+    {% if isActive %}
+        <h1>Is active is True</h1>
+        {% else %}
+        <h1>Is active is False</h1>
+    {% endif %}
+    {% if age > 18 %}
+        <p>user is elgiable...</p>
+        {% else %}
+        <p>user is not elgiable...</p>
+    {% endif %}
 
 
 </h1>

@@ -7,10 +7,20 @@ def group(request):
 
 
 def index(request):
-    return render(request, 'group/index.html')
+    context ={
+        'name' : 'FLIPKART'
+    }
+    return render(request, 'group/index.html' ,context)
     
 def contactUs(request):
-    return render(request, 'group/contactUs.html')
+    context ={
+        'contact_name' :["Kishan","Vinod","Rajesh","Sachin"]
+    }
+    return render(request, 'group/contactUs.html' ,context)
 
 def aboutus(request):
-    return render(request, 'group/aboutus.html')
+    context = {
+        'isActive' :True,
+        'age':20,
+    }
+    return render(request, 'group/aboutus.html',context)
