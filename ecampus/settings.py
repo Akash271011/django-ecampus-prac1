@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'cbv',
     'Task',
     'ticket',
-    
+    'serviceprovider',
+
 
 ]
 

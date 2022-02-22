@@ -25,8 +25,7 @@ urlpatterns = [
     path('cbv/', include('cbv.urls')),
     path('task/', include('Task.urls')),
     path('ticket/', include('ticket.urls')),
-    
-    
+    path('serviceprovider/',include('serviceprovider.urls')),
 
 
 ]
